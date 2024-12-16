@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PMDM Tarea 2</string>
+    <string name="lista_de_personajes">Personajes</string>
+    <string name="detalles_personajes">Detalles</string>
+    <string name="nombre">nombre</string>
+    <string name="descripcion">descripcion</string>
+    <string name="habilidades">habilidades</string>
 </resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/fragmentoListaPersonajes"> <!-- Cambia esto al fragmento inicial de tu app -->
+
+    <!-- Definición del fragmento de lista de personajes, en este caso será el inicial -->
+    <fragment
+        android:id="@+id/fragmentoListaPersonajes"
+        android:name="morenopina.benjamin.FragmentoListaPersonajes"
+        android:label="Fragmento de lista de personajes" >
+
+    </fragment>
+
+    <!-- Definición del fragmento que detalla los personajes -->
+    <fragment
+        android:id="@+id/fragmentoDetallePersonaje"
+        android:name="morenopina.benjamin.FragmentoDetallePersonaje"
+        android:label="Fragmento de detalle de personaje" />
+</navigation>
